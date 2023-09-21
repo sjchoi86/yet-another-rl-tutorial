@@ -8,3 +8,5 @@ This repo contains self-contained RL implementations including:
 - [Monte Carlo Learning](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/demo_05_monte_carlo_learning.ipynb)
 - [SARSA](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/demo_06_sarsa.ipynb)
 - [Q Learning](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/demo_07_q_learning.ipynb)
+
+- [Introduction to RL](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/slide/1%20%20Introduction%20to%20RL.pdf)
