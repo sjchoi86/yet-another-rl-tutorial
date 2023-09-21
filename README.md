@@ -9,4 +9,7 @@ This repo contains self-contained RL implementations including:
 - [SARSA](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/demo_06_sarsa.ipynb)
 - [Q Learning](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/demo_07_q_learning.ipynb)
 
+Lecture slides:
 - [Introduction to RL](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/slide/1%20%20Introduction%20to%20RL.pdf)
+- [Model-based methods in RL](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/slide/2%20Model-based%20methods.pdf)
+- [Model-free methods in RL](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/slide/3%20Model-free%20methods.pdf)
