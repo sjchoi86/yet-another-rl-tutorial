@@ -11,7 +11,7 @@ This repo contains self-contained RL implementations, including:
 
 Custom RL environment using MuJoCo with Snapbot:
 - 
-The objective is to make a custom MuJoCo environment for training an agent with RL
+The objective is to make a custom MuJoCo environment for training an agent with RL.
 - [Parse MJCF](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/snapbot_01_parse.ipynb)
 - [Make MDP env](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/snapbot_02_mdp.ipynb)
 - [Train SAC](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/snapbot_03_sac.ipynb)
