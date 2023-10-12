@@ -782,6 +782,25 @@ class MuJoCoParserClass(object):
             self.plot_arrow_fr2to(
                 p_fr=p_joint,p_to=p_joint+axis_len*axis_world,
                 r=axis_r,rgba=axis_rgba)
+            
+    def plot_ik_geom_info(self,ik_geom_names,ik_p_trgts,ik_R_trgts,
+                          axis_len=0.3,axis_width=0.01,sphere_r=0.05):
+        """ 
+            Plot IK geom information
+        """
+        for (ik_geom_name,ik_p_trgt,ik_R_trgt) in zip(ik_geom_names,ik_p_trgts,ik_R_trgts):
+            IK_P = ik_p_trgt is not None
+            IK_R = ik_R_trgt is not None
+            # Plot current and target poses
+            if IK_P and IK_R:
+                self.plot_geom_T(geom_name=ik_geom_name,axis_len=axis_len,axis_width=axis_width)
+                self.plot_T(p=ik_p_trgt,R=ik_R_trgt,
+                            PLOT_AXIS=True,axis_len=axis_len,axis_width=axis_width)
+            elif IK_P and not IK_R:
+                self.plot_geom_T(geom_name=ik_geom_name,
+                                 PLOT_AXIS=False,PLOT_SPHERE=True,sphere_r=sphere_r)
+                self.plot_T(p=ik_p_trgt,R=np.eye(3),
+                            PLOT_AXIS=False,PLOT_SPHERE=False,sphere_r=sphere_r)
 
     def get_body_names(self,prefix='obj_'):
         """
