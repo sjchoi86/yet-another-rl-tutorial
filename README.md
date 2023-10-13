@@ -11,9 +11,9 @@ This repo contains self-contained RL implementations, including:
 - [DQN](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/demo_08_dqn.ipynb)
 - [Generalized Advantage Estimate](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/demo_09_gae.ipynb)
 
-Custom RL environment using MuJoCo with Snapbot:
+Custom RL environment using MuJoCo with `Snapbot`:
 - 
-The objective is to make a custom MuJoCo environment for training an agent with RL.
+The objective is to make a custom MuJoCo environment for training an agent (`Snapbot`) with RL.
 <img src="gif/snapbot_walking.gif" width="400" height="300"/>
 
 - [Parse Snapbot MJCF](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/snapbot_01_parse.ipynb)
