@@ -14,6 +14,8 @@ This repo contains self-contained RL implementations, including:
 Custom RL environment using MuJoCo with Snapbot:
 - 
 The objective is to make a custom MuJoCo environment for training an agent with RL.
+<img src="gif/snapbot_walking.gif" width="400" height="300"/>
+
 - [Parse Snapbot MJCF](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/snapbot_01_parse.ipynb)
 - [Make Snapbot environment](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/snapbot_02_mdp.ipynb)
 - [Train Snapbot to walk using soft actor-critic (SAC)](https://github.com/sjchoi86/yet-another-rl-tutorial/blob/main/code/snapbot_03_sac.ipynb)
