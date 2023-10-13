@@ -225,13 +225,13 @@ class SnapbotMarkovDecisionProcessClass():
         o = self.get_observation()
         return o
         
-    def init_viewer(self):
+    def init_viewer(self,FONTSCALE_VALUE=150):
         """
             Initialize viewer
         """
         self.env.init_viewer(
-            viewer_title='%s'%(self.name),viewer_width=1200,viewer_height=800,
-            viewer_hide_menus=True)
+            viewer_title='%s'%(self.name),viewer_width=1200,viewer_height=800,viewer_hide_menus=True,
+            FONTSCALE_VALUE=FONTSCALE_VALUE)
         self.env.update_viewer(
             azimuth=95.0,distance=1.00,elevation=-27,lookat=[0.1,0.05,0.16],
             VIS_TRANSPARENT=False,VIS_CONTACTPOINT=True,
